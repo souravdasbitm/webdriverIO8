@@ -62,7 +62,7 @@ export const config: Options.Testrunner = {
     capabilities: [{
         browserName: 'chrome',
         'goog:chromeOptions': {
-            binary:'drivers/chromedriver.exe',
+            //binary:'drivers/chromedriver.exe',
             args: [
                 '--disable-infobars',
                 '--window-size=1280,800',
